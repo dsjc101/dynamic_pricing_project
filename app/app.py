@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-file_path = os.path.join('path', 'to', 'your', 'C:\\Users\\divya\\OneDrive\\Desktop\\dynamic_pricing_project\\data\\final_price_recommendations.csv')
+file_path = os.path.join("data", "final_price_recommendations.csv")
 df = pd.read_csv(file_path)
 
 
