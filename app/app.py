@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('data/final_price_recommendations.csv')
+df = pd.read_csv('C:/Users/divya/OneDrive/Desktop/dynamic_pricing_project/data/final_price_recommendations.csv')
 
 st.set_page_config(page_title="Dynamic Pricing Simulator", layout="wide")
 st.title(" Dynamic Pricing Engine — Revenue Simulator")
