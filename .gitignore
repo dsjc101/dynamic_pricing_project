@@ -1,0 +1,41 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency files
+env/
+.venv/
+venv/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit-specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.pkl
+data/*.db
+
+# Visuals
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs and outputs
+*.log
+*.out
+
+# VS Code and IDE files
+.vscode/
+.idea/
