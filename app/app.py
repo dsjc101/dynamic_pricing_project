@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import os
 
-file_path = os.path.join("data", "final_price_recommendations.csv")
-df = pd.read_csv(file_path)
-
+df = pd.read_csv('data/final_price_recommendations.csv')
 
 st.set_page_config(page_title="Dynamic Pricing Simulator", layout="wide")
 st.title(" Dynamic Pricing Engine — Revenue Simulator")
